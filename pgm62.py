@@ -4,8 +4,7 @@ c=1
 while c<=100:
     print(c)
     if c%2==0:
-        print('even')
+        print('The number is even')
     else:
-        print('odd')
-        c=c+1
-        
+        print('The number is  odd')
+        c=c+1 

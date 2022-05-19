@@ -3,6 +3,7 @@ c=int(input('c=?'))
 x=0
 y=0
 z=0
+print("Count the number of positive, negative, zero other than 1000:")
 while c!=1000:
     print(c)
     if c>0:
@@ -12,5 +13,6 @@ while c!=1000:
     else:
         z=z+1
     c=int(input('c=?'))
-print(x,y,z)    
-
+print("count of the positive:",x)    
+print("count of the negative:",y)
+print("count of the zero:",z)

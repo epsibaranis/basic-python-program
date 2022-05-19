@@ -1,10 +1,10 @@
 # Year between limits and its Leap year or not
 a=int(input('a='))
 b=int(input('b='))
+print("The year between the limits and it's leap year or not:")
 while a<=b:
-    print(a)
     if a%4==0:
-             print('Leap year')
+             print(a,'Leap year')
     else:
-        print('Not leap year')
-a=a+1
+        print(a,'Not leap year')
+    a=a+1
